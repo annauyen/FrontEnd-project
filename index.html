@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="#">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/homestyle.css">
+        <link rel="stylesheet" href="libs/fontawesome-free-5.15.4-web/css/all.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="icon" href="img/logo-icon-header/tree-icon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <title>Vườn Xanh</title>
+        <!-- <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    </head>
+  <body>
+    <!-- tạo header -->
+    <div class="container-fluid header">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <img src="img/logo-icon-header/banghieu-white-final.png" alt="" style="width: 80%;" class="titlehead">
+        </div>
+        <div class="col-sm-4 text-center">
+          <form class="search form-inline">
+            <div class="form-group">
+              <!-- <label for=""><span class="glyphicon glyphicon-search" style="color:#234D20;"></span></label> -->
+              <input type="text" class="form-control" placeholder="Tìm kiếm tại đây">
+              <button type="submit" class="btn btn-search">Tìm kiếm <span class="glyphicon glyphicon-search" style="color:#234D20;"></span></button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-4 text-center">
+          <img src="img/logo-icon-header/contact.png" alt="" style="width: 50%; margin-top: 10px;">
+        </div>
+      </div>
+    </div>
+      <!-- THANH ĐIỀU HƯỚNG -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+              <i class="fas fa-leaf logo"></i>
+              Vườn xanh
+            </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"> <a href="file:///E:/STUDY/CT188_NMLTWEB/VSCODE_CT188/index.html"><i class="fas fa-home"></i> Trang chủ</a></li>
+            <li> <a href="#">Giới thiệu</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cây giống
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="cay-an-qua.html">Cây ăn quả</a></li>
+                <li><a href="#">Cây cảnh</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Con giống
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="ga.html">Gà</a></li>
+                <li><a href="vit.html">Vịt</a></li>
+              </ul>
+            </li>
+            <li> <a href="#">Sản phẩm khác</a></li>
+            <li> <a href="#">Dịch vụ</a></li>
+            <li> <a href="#">Tin tức, kỹ thuật</a></li>
+            <li> <a href="#">Liên hệ</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a></li>
+            <li><a href="file:///E:/STUDY/CT188_NMLTWEB/VSCODE_CT188/login.html"><i class="fas fa-sign-in-alt logo"></i> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- CAROUSEL -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                 <!-- <h2>Carousel Example</h2>   -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/logo-icon-header/vải.png" alt="" style="width:100%; ">
+              </div>
+        
+              <div class="item">
+                <img src="img/logo-icon-header/thanhlong.jpg" alt="" style="width:100%;">
+              </div>
+            
+              <div class="item">
+                <img src="img/logo-icon-header/chọn-cây-phong-thủy-hợp-mệnh-phong-thủy.jpg" alt="" style="width:100%;">
+              </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/logo-icon-header/cay-canh-hai-phong-2-min.jpg" alt="" class="img-responsive">
+                <br>
+                <img src="img/logo-icon-header/bo-sung-dinh-duong-cho-vit-con-nhanh-lon.jpg" alt="" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container text-center">
+      <div class="col-sm-3">
+        <div class="quote">
+          <i class="fas fa-truck"></i>
+          <p>Miễn phí giao hàng </p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class=" quote">
+          <i class="fas fa-home"></i> 
+          <p> Giao hàng tận nơi </p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class=" quote">
+          <i class="fas fa-gifts"></i>
+          <p>Nhận gói quà</p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="quote">
+          <i class="fas fa-hand-holding-usd"></i>
+          <p>Uy tín, chất lượng cao</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- MỤC HÌNH ẢNH -->
+    <div class="container text-center">
+      <h3>Chúng tôi có các giống vật nuôi</h3>
+      <div class="row vatnuoi">
+        <div class="col-sm-4">
+          <img src="img/gà/1.png" class="img-responsive" style="width:100%; padding-top: 25px;" alt="Image">
+          <p>tên cây</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/gà/2.jpg" class="img-responsive" style="width:100%; padding-top: 25px;" alt="Image">
+          <p>tên cây</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/vịt/2.jpg" class="img-responsive" style="width:100% ;padding-top: 25px;" alt="Image">
+          <p>tên cây</p>
+        </div>
+      </div>
+      <hr>
+      <h3>Chúng tôi có các giống cây trồng</h3>
+      <div class="row caytrong">
+        <div class="col-sm-4">
+          <img src="img/cây-cảnh/2.jpg" class="img-responsive" style="width:100%; padding-top: 25px;" alt="Image">
+          <p>tên cây</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/cây-cảnh/4.jpg" class="img-responsive" style="width:100%; padding-top: 25px;" alt="Image">
+          <p>tên cây</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/cây-ăn-quả/2.jpg" class="img-responsive" style="width:100%; padding-top: 25px;" alt="Image">
+          <p>tên cây</p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <p class="indam">Thông tin liên hệ</p>
+          <p>- Địa chỉ: D4-08 KDC Hoàng Quân, Đại Học Kiến Trúc</p>
+          <p>- Liên hệ: Uyên</p>
+          <p>- Email: abc@xyz.com</p>
+          <p>- Website: </p>
+        </div>
+        <div class="col-sm-3">
+          <p class="indam">Chính sách bán hàng</p>
+          <p>- Cây giống chất lượng cao.</p>
+          <p>- Uy tín, chất lượng.</p>
+          <p>- Vận chuyển, giao nhận toàn quốc.</p>
+          <p>- Hình thức thanh toán đa dạng.</p>
+        </div>
+        <div class="col-sm-3">
+          <p class="indam">Có thể bạn quan tâm</p>
+          <p>Đăng kí để nhận thông tin từ chúng tôi:</p>
+          <button type="submit" class="btn" data-toggle="popover" title="Thông báo" data-content="Đăng kí thành công">Đăng kí</button>
+        </div>
+        <div class="col-sm-3">
+          <p class="indam">Liên kết với chúng tôi</p>
+          <a href="#" class="foot"><i class="fas fa-envelope-open-text" style="font-size: 30px;"></i> Email</a>
+          <br>
+          <a href="#" class="foot"><i class="fab fa-twitter-square" style="font-size: 30px;"></i> Twitter</a>
+          <br>
+          <a href="#" class="foot"><i class="fab fa-facebook-square" style="font-size: 30px;"></i> Facebook</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();   
+      });
+      </script>
+  </body>
+</html>
